@@ -1,25 +1,57 @@
-# Student Management System
+# 🎓 Student Management System (Java + MySQL)
 
-A console-based Java application for managing student records in a MySQL database. This system allows users to perform CRUD (Create, Read, Update, Delete) operations on student data through a simple command-line interface.
+A **console-based Java application** designed to manage student records using a **MySQL database**.  
+This project demonstrates **Core Java, JDBC, MySQL integration**, and follows a **layered architecture** suitable for beginners and freshers.
 
-## Features
+---
 
-- **Add Student**: Insert new student records with ID, name, age, and course.
-- **View All Students**: Display all student records in a tabular format.
-- **Search Student**: Find a specific student by their ID.
-- **Delete Student**: Remove a student record by ID.
-- **Update Student**: Modify existing student information.
+## 📌 Project Overview
 
-## Prerequisites
+The **Student Management System** allows users to perform complete **CRUD operations** (Create, Read, Update, Delete) on student data through a simple **command-line interface**.
 
-- Java Development Kit (JDK) 8 or higher
+This project is ideal for:
+- Java beginners
+- JDBC & MySQL practice
+- Understanding real-world database-driven applications
+- Academic & interview preparation
+
+---
+
+## ✨ Features
+
+- ➕ **Add Student** – Create new student records (ID, Name, Age, Course)
+- 📋 **View All Students** – Display all stored student records
+- 🔍 **Search Student** – Find student details by ID
+- ✏️ **Update Student** – Modify existing student information
+- ❌ **Delete Student** – Remove student records by ID
+- ⚠️ **Custom Exception Handling** – Handles student-not-found scenarios
+
+---
+
+## 🧰 Technologies Used
+
+- **Java (Core Java)**
+- **MySQL**
+- **JDBC (Java Database Connectivity)**
+- **VS Code / Eclipse**
+- **Git & GitHub**
+
+---
+
+## 📦 Prerequisites
+
+Ensure the following are installed before running the project:
+
+- Java Development Kit (**JDK 8 or above**)
 - MySQL Server
-- MySQL Connector/J (included in `lib/` folder)
+- MySQL Connector/J (included in the `lib/` directory)
 
-## Database Setup
+---
 
-1. Install and start MySQL Server.
-2. Create a database named `student_db`:
+## 🗄️ Database Setup
+
+1. Start MySQL Server
+2. Create database:
    ```sql
    CREATE DATABASE student_db;
    ```
