@@ -33,7 +33,7 @@ This project is ideal for:
 - **Java (Core Java)**
 - **MySQL**
 - **JDBC (Java Database Connectivity)**
-- **VS Code / Eclipse**
+- **VS Code**
 - **Git & GitHub**
 
 ---
